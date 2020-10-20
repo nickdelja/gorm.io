@@ -9,7 +9,7 @@ GORM 2.0 is a rewrite from scratch, it introduces some incompatible-API change a
 
 * Performance Improvements
 * Modularity
-* Context, Batch Insert, Prepared Statment Mode, DryRun Mode, Join Preload, Find To Map, Create From Map, FindInBatches supports
+* Context, Batch Insert, Prepared Statement Mode, DryRun Mode, Join Preload, Find To Map, Create From Map, FindInBatches supports
 * Nested Transaction/SavePoint/RollbackTo SavePoint supports
 * SQL Builder, Named Argument, Group Conditions, Upsert, Locking, Optimizer/Index/Comment Hints supports, SubQuery improvements, CRUD with SQL Expr and Context Valuer
 * Full self-reference relationships support, Join Table improvements, Association Mode for batch data
@@ -83,7 +83,7 @@ for _, user := range users {
 }
 ```
 
-#### Prepared Statment Mode
+#### Prepared Statement Mode
 
 Prepared Statement Mode creates prepared stmt and caches them to speed up future calls
 
